@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+watch detail
+</title>
+<body>
+<div>
+<a href="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61VCbsEHhmL._UX522_.jpg">
+<img  src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61VCbsEHhmL._UX522_.jpg" align="left" style="height:350px;width:350px">
+</a>
+</div>
+<div>
+<h2>Casio G-SHOCK Digital with Black Dial , Unisex watch</h2>
+<p style="font-size:20px;">by casio</p>
+<p style="color:gold;font-size:18px;">**  967 Ratings</p>
+<p style="font-size:50px;">7,125 INR</p>
+<p style="font-size:25px;color:green;">In stock</p>
+<br> </br>
+<p style="font-size:25px;">Product Details:<br> </br>
+ Case Diameter:      55 millimeter<br> </br>
+ Band Colour:        Black<br> </br>
+ Band Material Type: Resin<br> </br>
+ Country of Origin:  China
+</p>
+<a href="alldetails.html">see all details</a>
+<br> </br>
+
+</div>
+</body>
+</html>
