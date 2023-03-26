@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<title>NIT BAZAAR</title>
+<html>
+
+<head>
+  <style>
+    #header-logo {
+      z-index: 100;
+      transform: translateX(-15px) translateY(-18px);
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      font-size: 30px;
+      position: absolute;
+      color: white;
+      text-align: center;
+
+      margin: auto;
+      width: 640px;
+      padding: 50px;
+      font-family: 'Lexend Deca', sans-serif;
+
+
+    }
+
+    span {
+      text-align: center;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 12px 16px;
+      z-index: 1;
+      color: black;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .header {
+      background-color: #2F4F4F;
+      padding: 15px;
+      text-align: center;
+      text-font: garamond(serif)
+    }
+
+    .nav_menu {
+      overflow: hidden;
+      background-color: linen;
+      transform: translateX(-14px);
+    }
+
+    .nav_menu a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .nav_menu a:hover {
+      background-color: white;
+      color: #2F4F4F;
+    }
+
+    body {
+      background-image:
+        url("https://mldvwwasb8tu.i.optimole.com/w:1300/h:867/q:mauto/https://veebrant.com/wp-content/uploads/2021/08/carrer-de-sant-feliu.jpg");
+
+
+    }
+    /* button1 {
+            background: linen;
+            width: 20px;
+            height: 20px;
+            color: black;
+            border: 1px solid linen;
+            font-size: 20px;
+            border-radius: 5px;
+            position: relative;
+        } */
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            background: linen;
+            width: 70px;
+            height: 20px;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: black;
+            font-size: 25px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background: white;
+        }
+
+        .open {
+            display: none;
+        }
+
+        .gfg {
+            font-size: 40px;
+            font-weight: bold;
+            color: linen;
+            Text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+  </style>
+  <script type="text/javascript">
+    function open_menu() {
+        var clicked = document.getElementById('drop-menu');
+        if (clicked.style.display == 'block') {
+            clicked.style.display = 'none';
+        }
+        else {
+            clicked.style.display = 'block';
+        }
+    }
+</script>
+</head>
+
+<body>
+  <div class="header">
+    <h2 style="color:white;font-size:250%;">
+      <a href="noobathon.html">
+        <img id="header-logo" src="noobathon.png" align="left"
+          style="height:200px;width:194px;" /> 
+      </a>
+      NIT BAZAAR
+    </h2>
+  </div>
+  <div class="nav_menu">
+    <h1>
+      <a href="#">Cart</a>
+      <div id="dropdown">
+        <a onclick="open_menu()">My orders </a>
+        <div class="open" id="drop-menu">
+            <ul>
+                <li><a href="myorders1.html">Track</a></li>
+                <li><a href="">Cancel</a></li>
+                <li><a href="">Return</a></li>
+                <li><a href="payments.html">Payment</a></li>
+            </ul>
+        </div>
+    </div>
+      <a href="#">Support </a>
+      <a href="FAQs.html">FAQs </a>
+
+    </h1>
+  </div><br>
+  <div class="dropdown">
+    <span>1.Need to return something?</span>
+    <div class="dropdown-content">
+      <p>1. Go to My orders.</p>
+      <p>2. Choose an item that you want to return or replace.</p>
+      <p>3. Click on return checked item.</p>
+    </div>
+  </div>
+  <br> </br>
+  <br> </br>
+  <div class="dropdown">
+    <span>2.Want to cancel your order?</span>
+    <div class="dropdown-content">
+      <p>1. Go to My orders.</p>
+      <p>2. Choose an item that you want to cancel and click cancel item.</p>
+      <p>3. Click on cancel checked item.</p>
+    </div>
+  </div>
+  <br> </br>
+  <br> </br>
+  <div class="dropdown">
+    <span>3.Track your order.</span>
+    <div class="dropdown-content">
+      <p>1. Go to My orders.</p>
+      <p>2. Go to the order you want to track.</p>
+      <p>3. Click Track Package next to your order.</p>
+      <p>4. Select See all Updates to view delivery updates.</p>
+    </div>
+  </div>
+  <br> </br>
+  <br> </br>
+  <div class="dropdown">
+    <span>4.To Retry a payment decline.</span>
+    <div class="dropdown-content">
+      <p>1. Go to My orders.</p>
+      <p>2. Retry with your payment method by selecting Retry Payment Method next to the order.</p>
+
+    </div>
+  </div>
+  <br> </br>
+
+</body>
+
+
+</html>

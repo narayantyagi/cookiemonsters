@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+NIT BAZAAR
+</title>
+<style>* {
+    box-sizing: border-box;
+}
+
+#buttons{
+    align-items: right;
+    height: 50px;
+    width: 150px;
+    align-content: right;
+    transform: translateX(750px);
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,300|Ubuntu+Condensed|Ubuntu+Mono);
+
+
+#header-logo {
+    z-index: 100;
+    transform: translateX(-15px) translateY(1px);
+}
+
+.header {
+    background-color: #2F4F4F;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav_menu {
+    overflow: hidden;
+    background-color: linen;
+    transform: translateX(-14px);
+}
+
+.nav_menu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav_menu a:hover {
+    background-color: white;
+    color: #2F4F4F;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+h1 {
+    font-family: 'Open Sans', serif;
+    color: black;
+    font-weight: 1000;
+    font-size: 150%
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    height:160%;
+    width:95%;
+}
+
+.gallery-item img {
+    width: 150%;
+    height: 70%;
+    object-fit: cover;
+    transition: transform 0.75s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1);
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.75s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.gallery-item .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+}
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    background: linen;
+    width: 110px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background: white;
+}
+
+.open {
+    display: none;
+}
+
+.gfg {
+    font-size: 40px;
+    font-weight: bold;
+    color: linen;
+    Text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#item{
+    border: 2px solid black;
+}
+</style>
+<body>
+    <div class="header">
+        <h2 style="color:white;font-size:250%;">
+            <a href="noobathon.html"><img id="header-logo" src="noobathon.png" align="left"
+                    style="height:165px;width:170px "  /> </a>
+            NIT BAZAAR
+        </h2>
+    </div>
+    <div class="nav_menu">
+        <h1>
+            <a href="#">Cart</a>
+            <div id="dropdown">
+                <a onclick="open_menu()">My orders </a>
+                <div class="open" id="drop-menu">
+                    <ul>
+                        <li><a href="myorders1.html">Track</a></li>
+                        <li><a href="cancel.html">Cancel</a></li>
+                        <li><a href="return.html">Return</a></li>
+                        <li><a href="payments.html">Payment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="support.html">Support </a>
+            <a href="FAQs.html">FAQs </a>
+            <div class="search" align="right">
+
+                <form action="#">
+                    <input type="text" placeholder=" Search " name="search" align="center"
+                        style="height:21px;width:400px">
+                    <button>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png"
+                            align="right" style="height:21px;width:16px">
+                        <i class="fa fa-search" style="font-size: 40px">
+                        </i>
+                    </button>
+                </form>
+            </div>
+        </h1>
+    </div><br>
+</body>
+<div>
+<a href="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61VCbsEHhmL._UX679_.jpg">
+<img id="item" src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61VCbsEHhmL._UX679_.jpg" align="left" style="height:350px;width:350px ">
+</a>
+</div>
+<div>
+<h2>Casio G-SHOCK Digital with Black Dial , Unisex watch</h2>
+<p style="font-size:20px;">by casio</p>
+<p style="color:gold;font-size:18px;">****  967 Ratings</p>
+<p style="font-size:50px;">7,125 INR</p>
+<p style="font-size:25px;color:green;">In stock</p>
+<br> </br>
+<p style="font-size:25px;">Product Details:<br> </br>
+ Case Diameter:      55 millimeter<br> </br>
+ Band Colour:        Black<br> </br>
+ Band Material Type: Resin<br> </br>
+ Country of Origin:  China
+</p>
+<button id="buttons"class="button" style="vertical-align:middle"><span><a  href="./payments.html">Buy now</a> </span></button><br>
+<button id="buttons"class="button" style="vertical-align:middle"><span><a  href="./noobathon.html">add to cart</a> </span></button><br>
+
+<a href="./watchalldetails.html">see all details</a>
+<br> </br>
+
+</div>
+</body>
+</html>

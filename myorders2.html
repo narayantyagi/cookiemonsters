@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+            <title>
+            NIT Bazaar
+            
+        </title>
+         
+        <style>
+            a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #04AA6D;
+  color: black;
+}
+
+
+.round {
+  border-radius: 50%;
+}
+            table, th, td 
+            {
+            border:1px solid black;
+            }
+            .header 
+            {
+                background-color: #2F4F4F;
+                padding: 15px;
+                text-align: center;
+		    text-font: garamond(serif)	
+            }
+            .nav_menu 
+            {
+                overflow: hidden;
+                background-color: linen;
+            }
+            .nav_menu a {
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .nav_menu a:hover {
+                background-color: white;
+                color: #2F4F4F;
+            }
+		.bold{
+			font-weight: 1000;
+		}
+		@import url(
+         https://fonts.googleapis.com/css?family=Open+Sans);
+        h1 {
+            font-family: 'Open Sans', serif;
+            color: black;
+		font-weight: 1000;
+		font-size: 150%
+        }
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+        }
+  
+        .gallery-item img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            transition: transform 0.75s ease;
+        }
+  
+        .gallery-item:hover img {
+            transform: scale(1);
+        }
+  
+        .gallery-item .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.75s ease;
+        }
+  
+       .gallery-item:hover .overlay {
+             opacity: 1;
+        }
+  
+       .gallery-item .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 1.5rem;
+        }
+	  h3{
+		colour:white
+	}
+        /* button1 {
+            background: linen;
+            width: 20px;
+            height: 20px;
+            color: black;
+            border: 1px solid linen;
+            font-size: 20px;
+            border-radius: 5px;
+            position: relative;
+        } */
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li a {
+            display: block;
+            background: linen;
+            width: 70px;
+            height: 20px;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: black;
+            font-size: 25px;
+        }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background: white;
+        }
+
+        .open {
+            display: none;
+        }
+
+        .gfg {
+            font-size: 40px;
+            font-weight: bold;
+            color: linen;
+            Text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        </style>
+        <script type="text/javascript">
+            function open_menu() {
+                var clicked = document.getElementById('drop-menu');
+                if (clicked.style.display == 'block') {
+                    clicked.style.display = 'none';
+                }
+                else {
+                    clicked.style.display = 'block';
+                }
+            }
+        </script>
+        
+    </head>
+     
+    <body>
+        <div class = "header">
+            <h2 style = "color:white;font-size:250%;"> 
+                <a href="noobathon.html"><img src="noobathon.png" align="left" style="height:165px;width:160px" 
+                position: float; left:30     px;
+                 /> </a>
+                NIT BAZAAR
+            </h2>
+        </div>
+        <div class = "nav_menu">
+		<h1>
+            <a href = "#">Cart</a>
+            <div id="dropdown">
+                <a onclick="open_menu()">My orders </a>
+                <div class="open" id="drop-menu">
+                    <ul>
+                        <li><a href="myorders1.html">Track</a></li>
+                        <li><a href="">Cancel</a></li>
+                        <li><a href="">Return</a></li>
+                        <li><a href="payments.html">Payment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href = "#">Support </a>
+		<a href = "FAQs.html">FAQs </a>
+		<div class="search" align="right">
+             
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search "
+                    name="search" align= "center"
+                    style="height:21px;width:400px"
+                >
+                <button>
+			  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png" style="height:17px;width:18px" >
+                    <i class="fa fa-search"
+                        style="font-size: 10px">
+                    </i>
+                </button>
+            </form>
+        </div>
+		</h1>
+        </div>
+<br>
+</body>
+<body>
+<h2>Your Orders </h2>
+<table style="width:100%">
+  <tr>
+    <th>Order number</th>
+    <th>Description</th>
+    <th>Order status</th>
+    <th>Tracker ID</th>
+  </tr>
+
+  <tr>
+    <td>ZJBBHKLO83S</td>
+    <td>Hindi Film Hits - Vol - 2  </td>
+    <td>Delivered
+    <br>
+    19/1/23
+    </td>
+    <td>CS82BDEL4
+  </tr>
+  <tr>
+    <td>ZMUW2899ABBIA</td>
+    <td>JK Copier Paper - A4, 75 GSM, 1 Ream, 500 Sheets </td>
+    <td>Delivered
+    <br>
+    12/12/22
+    </td>
+    <td>HGGAUJ21
+  </tr>
+</table>
+<a href="myorders1.html" class="previous">&laquo; Previous</a>
+</body>
+</html>
